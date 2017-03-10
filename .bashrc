@@ -70,3 +70,6 @@ alias ports='netstat -tulanp'
 function pr_by_name(){
     ps -ax | grep -i $1
 }
+
+#---===Sugar==---
+#sudo kill -9 $(ps aux | grep 'Chro' | awk '{print $2}')
